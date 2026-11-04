@@ -269,6 +269,7 @@ function renderPage(weeks, notes) {
 
   for (const pager of document.querySelectorAll(".pager")) {
     pager.replaceChildren(
+      page > 1 ? el("a", { href: "#page=1", textContent: "Newest" }) : el("span", { textContent: "Newest" }),
       page > 1 ? el("a", { href: `#page=${page - 1}`, textContent: "Newer" }) : el("span", { textContent: "Newer" }),
       `Page ${page} of ${pageCount} (${weeks[first].week} to ${weeks[last].week})`,
       page < pageCount ? el("a", { href: `#page=${page + 1}`, textContent: "Older" }) : el("span", { textContent: "Older" }),
