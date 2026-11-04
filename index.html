@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DevTools intermittents</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+  body { max-width: 1100px; margin: 0 auto; padding: 1em; }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+  td, th { text-align: left; vertical-align: top; padding: 6px; border-bottom: 1px solid #8884; }
+  td.count { text-align: right; font-variant-numeric: tabular-nums; }
+  .done .bug { text-decoration: line-through; opacity: 0.6; }
+  .tag { font-size: 0.8em; padding: 1px 6px; border-radius: 8px; background: #8883; white-space: nowrap; }
+  .tag.new { background: #e66a; }
+  ul { margin: 0; padding-left: 1.2em; }
+  details { font-size: 0.9em; opacity: 0.8; }
+</style>
+</head>
+<body>
+<h1>DevTools intermittents</h1>
+<p>Bugs in the DevTools product with 10 or more failures in a week.
+  <a href="https://mzl.la/3yj4Azn">Intermittents with NEEDINFO</a>,
+  <a href="https://mzl.la/3BrCd5o">not disabled</a>.</p>
+<div class="charts">
+  <div><canvas id="bugCount"></canvas></div>
+  <div><canvas id="total"></canvas></div>
+</div>
+<h2>Week of <select id="week"></select></h2>
+<p id="summary"></p>
+<div id="weekNotes"></div>
+<table>
+  <thead><tr><th>Failures</th><th>Bug</th><th></th><th>Notes</th></tr></thead>
+  <tbody id="bugs"></tbody>
+</table>
+<script>
+const MOVING_AVERAGE_WEEKS = 5;
+
+function parseNotes(text) {
+  const weeks = {};
+  let week = null;
+  let bug = null;
+  for (const line of text.split("\n")) {
+    let m;
+    if ((m = line.match(/^## (\d{4}-\d{2}-\d{2})/))) {
+      week = weeks[m[1]] = { notes: [], bugs: {} };
+      bug = null;
+    } else if (!week) {
+      continue;
+    } else if ((m = line.match(/^- \[([ xX])\] (\d+)\s*(.*)$/))) {
+      bug = week.bugs[m[2]] = { done: m[1] !== " ", notes: m[3] ? [m[3]] : [] };
+    } else if ((m = line.match(/^\s+- (.*)$/)) && bug) {
+      bug.notes.push(m[1]);
+    } else if (line.trim() && !bug) {
+      week.notes.push(line.trim());
+    }
+  }
+  return weeks;
+}
+
+function el(tag, props = {}, children = []) {
+  const node = Object.assign(document.createElement(tag), props);
+  node.append(...children);
+  return node;
+}
+
+function richText(text) {
+  const parts = [];
+  const re = /\[([^\]]+)\]\((https?:[^)\s]+)\)/g;
+  let last = 0;
+  for (const m of text.matchAll(re)) {
+    parts.push(text.slice(last, m.index), el("a", { href: m[2], textContent: m[1] }));
+    last = m.index + m[0].length;
+  }
+  parts.push(text.slice(last));
+  return parts;
+}
+
+function addDays(isoDate, days) {
+  const d = new Date(isoDate + "T00:00:00Z");
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+function movingAverage(values) {
+  return values.map((_, i) => {
+    const window = values.slice(Math.max(0, i - MOVING_AVERAGE_WEEKS + 1), i + 1)
+      .filter(v => v != null);
+    return window.length ? window.reduce((a, b) => a + b, 0) / window.length : null;
+  });
+}
+
+function drawChart(id, title, history, key, color) {
+  const values = history.map(e => e[key] ?? null);
+  new Chart(document.getElementById(id), {
+    type: "line",
+    data: {
+      labels: history.map(e => e.week),
+      datasets: [
+        { label: title, data: values, borderColor: color, pointRadius: 0, borderWidth: 2 },
+        { label: `${MOVING_AVERAGE_WEEKS}-week average`, data: movingAverage(values),
+          borderColor: color + "66", pointRadius: 0, borderWidth: 2 },
+      ],
+    },
+    options: {
+      plugins: { title: { display: true, text: title } },
+      interaction: { mode: "index", intersect: false },
+      scales: { x: { ticks: { maxTicksLimit: 8 } }, y: { beginAtZero: true } },
+    },
+  });
+}
+
+function renderWeek(history, notes, index) {
+  const entry = history[index];
+  const weekNotes = notes[entry.week] || { notes: [], bugs: {} };
+  const start = entry.start || addDays(entry.week, -7);
+  const end = entry.end || addDays(entry.week, -1);
+  const treeherder = "https://treeherder.mozilla.org/intermittent-failures/main?" +
+    new URLSearchParams({ startday: start, endday: end, tree: "all", product: "DevTools" });
+  const buglist = "https://bugzilla.mozilla.org/buglist.cgi?bug_id=" +
+    entry.bugs.map(b => b.id).join("%2C");
+
+  document.getElementById("summary").replaceChildren(
+    entry.bugCount != null ? `Bugs: ${entry.bugCount}. Total failures: ${entry.total}. ` : "",
+    `${start} to ${end}. `,
+    el("a", { href: treeherder, textContent: "Treeherder" }), ", ",
+    el("a", { href: buglist, textContent: "Bugzilla list" }),
+  );
+  document.getElementById("weekNotes").replaceChildren(
+    ...weekNotes.notes.map(n => el("p", {}, richText(n))),
+  );
+
+  const rows = entry.bugs.map(bug => {
+    let streak = 1;
+    while (index - streak >= 0 && history[index - streak].bugs.some(b => b.id === bug.id)) {
+      streak++;
+    }
+    const seenBefore = history.slice(0, index).some(e => e.bugs.some(b => b.id === bug.id));
+    const tag = !seenBefore ? el("span", { className: "tag new", textContent: "new" })
+      : streak > 1 ? el("span", { className: "tag", textContent: `${streak} weeks in a row` })
+      : el("span", { className: "tag", textContent: "back" });
+
+    const own = weekNotes.bugs[bug.id] || { done: false, notes: [] };
+    const earlier = history.slice(0, index).reverse()
+      .filter(e => notes[e.week]?.bugs[bug.id]?.notes.length)
+      .map(e => el("li", {}, [`${e.week}: `, ...richText(notes[e.week].bugs[bug.id].notes.join(" / "))]));
+
+    return el("tr", { className: own.done ? "done" : "" }, [
+      el("td", { className: "count", textContent: bug.count ?? "?" }),
+      el("td", { className: "bug" }, [
+        el("a", { href: `https://bugzilla.mozilla.org/show_bug.cgi?id=${bug.id}`,
+                  textContent: `Bug ${bug.id}` }),
+        ` - ${bug.summary}`,
+      ]),
+      el("td", {}, [tag]),
+      el("td", {}, [
+        el("ul", {}, own.notes.map(n => el("li", {}, richText(n)))),
+        earlier.length ? el("details", {}, [el("summary", { textContent: "Earlier notes" }),
+                                            el("ul", {}, earlier)]) : "",
+      ]),
+    ]);
+  });
+  document.getElementById("bugs").replaceChildren(...rows);
+}
+
+(async function () {
+  const [history, notesText] = await Promise.all([
+    fetch("data/history.json").then(r => r.json()),
+    fetch("notes.md").then(r => r.text()),
+  ]);
+  const notes = parseNotes(notesText);
+
+  drawChart("bugCount", "Bugs with 10+ failures", history, "bugCount", "#3b78e7");
+  drawChart("total", "Total failures for these bugs", history, "total", "#e53935");
+
+  const weeks = history.filter(e => e.bugs);
+  const select = document.getElementById("week");
+  select.append(...weeks.map((e, i) => el("option", { value: i, textContent: e.week })).reverse());
+  select.addEventListener("change", () => renderWeek(weeks, notes, Number(select.value)));
+  renderWeek(weeks, notes, weeks.length - 1);
+})();
+</script>
+</body>
+</html>

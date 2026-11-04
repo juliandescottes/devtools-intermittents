@@ -1,0 +1,4262 @@
+[
+ {
+  "week": "2024-11-21",
+  "bugCount": 28,
+  "total": 1045
+ },
+ {
+  "week": "2024-11-28",
+  "bugCount": 30,
+  "total": 1069
+ },
+ {
+  "week": "2024-12-05",
+  "bugCount": 34,
+  "total": 1323
+ },
+ {
+  "week": "2024-12-12",
+  "bugCount": 45,
+  "total": 1862
+ },
+ {
+  "week": "2024-12-19",
+  "bugCount": 34,
+  "total": 1564
+ },
+ {
+  "week": "2024-12-26",
+  "bugCount": 22,
+  "total": 1028
+ },
+ {
+  "week": "2025-01-02",
+  "bugCount": 19,
+  "total": 549
+ },
+ {
+  "week": "2025-01-09",
+  "bugCount": 17,
+  "total": 347
+ },
+ {
+  "week": "2025-01-16",
+  "bugCount": 28,
+  "total": 749
+ },
+ {
+  "week": "2025-01-23",
+  "bugCount": 27,
+  "total": 561
+ },
+ {
+  "week": "2025-01-31",
+  "bugs": [
+   {
+    "count": 25,
+    "id": 1830888,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-event-breakpoints.js | single tracking bug"
+   },
+   {
+    "count": 50,
+    "id": 1767701,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-features-breakable-lines.js | single tracking bug"
+   },
+   {
+    "count": 39,
+    "id": 1766133,
+    "summary": "Intermittent leakcheck | tab 2992 bytes leaked (CondVar, GatherProfileThreadParameters, IPC::Message, IPDLResolverInner, Mutex, ...)"
+   },
+   {
+    "count": 23,
+    "id": 1767778,
+    "summary": "Frequent devtools/shared/commands/target/tests/browser_target_command_browser_workers.js | single tracking bug"
+   },
+   {
+    "count": 28,
+    "id": 1936634,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1924993,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-breakpoints-columns.js | single tracking bug"
+   },
+   {
+    "count": 36,
+    "id": 1767771,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_reflows.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1891110,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_network_events_parent_process.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 45,
+    "id": 1767698,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   }
+  ],
+  "bugCount": 21,
+  "total": 459
+ },
+ {
+  "week": "2025-02-07",
+  "bugs": [
+   {
+    "count": 188,
+    "id": 1945519,
+    "summary": "Perma win devtools/client/inspector/rules/test/browser_rules_selector_warnings.js | Test timed out -"
+   },
+   {
+    "count": 37,
+    "id": 1945533,
+    "summary": "Intermittent [tier 2] devtools/client/inspector/shared/test/browser_styleinspector_tooltip-shorthand-fontfamily.js | single tracking bug"
+   },
+   {
+    "count": 52,
+    "id": 1946102,
+    "summary": "Perma [tier 2] devtools/client/inspector/rules/test/browser_rules_computed-lists_02.js | Node is not accessible via accessibility API: id: , tagName: span, className: ruleview-expander theme-twisty -"
+   },
+   {
+    "count": 60,
+    "id": 1945327,
+    "summary": "Perma TEST-UNEXPECTED-FAIL | devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out when Gecko 136 merges to beta on 2025-02-03"
+   },
+   {
+    "count": 33,
+    "id": 1945849,
+    "summary": "Perma [tier 2] devtools/client/debugger/test/mochitest/browser_dbg-preview-switch.js | Node is not focusable via the accessibility API: id: , tagName: BUTTON, className: theme-twisty -"
+   },
+   {
+    "count": 38,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 54,
+    "id": 1945200,
+    "summary": "Perma [tier 2] a11y devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | Node is not focusable via the accessibility API: id: 1, tagName: DIV, className: tree-node div -"
+   },
+   {
+    "count": 17,
+    "id": 1767696,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 45,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1889162,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_enable_network_monitoring.js | single tracking bug"
+   }
+  ],
+  "bugCount": 17,
+  "total": 419
+ },
+ {
+  "week": "2025-02-13",
+  "bugCount": 19,
+  "total": 426
+ },
+ {
+  "week": "2025-02-17",
+  "bugs": [
+   {
+    "count": 71,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1889162,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_enable_network_monitoring.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 0,
+    "id": 1946333,
+    "summary": "Shorthand expander isn't accessible"
+   },
+   {
+    "count": 17,
+    "id": 1767701,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-features-breakable-lines.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767633,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_autoscroll.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1767781,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1767778,
+    "summary": "Frequent devtools/shared/commands/target/tests/browser_target_command_browser_workers.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-02-21",
+  "bugs": [
+   {
+    "count": 30,
+    "id": 1831388,
+    "summary": "Perma a11y devtools/client/webconsole/test/browser/browser_webconsole_eval_sources.js | single tracking bug"
+   },
+   {
+    "count": 84,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767781,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1767701,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-features-breakable-lines.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 1946860,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_error-boundary-01.js | single tracking bug"
+   },
+   {
+    "count": 43,
+    "id": 1924831,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inspector-integration.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1929339,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1767771,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_reflows.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   }
+  ],
+  "bugCount": 22,
+  "total": 422
+ },
+ {
+  "week": "2025-02-27",
+  "bugCount": 13,
+  "total": 320
+ },
+ {
+  "week": "2025-03-04",
+  "bugs": [
+   {
+    "count": 17,
+    "id": 1767721,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-browser-toolbox-workers.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1767771,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_reflows.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767781,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1783639,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-state-based-panels.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1808555,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_last_private_context_exit.js | single tracking bug"
+   },
+   {
+    "count": 54,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1924831,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inspector-integration.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1929339,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 52,
+    "id": 1946860,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_error-boundary-01.js | single tracking bug"
+   }
+  ],
+  "bugCount": 13,
+  "total": 245
+ },
+ {
+  "week": "2025-03-12",
+  "bugs": [
+   {
+    "count": 14,
+    "id": 1767656,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_status-codes.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767658,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_timing-division.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1767781,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1783639,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-state-based-panels.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1889407,
+    "summary": "Intermittent devtools/shared/commands/target-configuration/tests/browser_target_configuration_command_custom_user_agent.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1929339,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1932503,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-editor-scroll.js | single tracking bug"
+   },
+   {
+    "count": 39,
+    "id": 1951769,
+    "summary": "Intermittent [tier 2] devtools/client/debugger/test/mochitest/browser_dbg-preview-switch.js | single tracking bug"
+   }
+  ],
+  "bugCount": 14,
+  "total": 258
+ },
+ {
+  "week": "2025-03-19",
+  "bugs": [
+   {
+    "count": 14,
+    "id": 1432176,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_original-source-link.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767633,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_autoscroll.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767658,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_timing-division.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767781,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1783639,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-state-based-panels.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1889407,
+    "summary": "Intermittent devtools/shared/commands/target-configuration/tests/browser_target_configuration_command_custom_user_agent.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1929339,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1951769,
+    "summary": "Intermittent [tier 2] devtools/client/debugger/test/mochitest/browser_dbg-preview-switch.js | single tracking bug"
+   }
+  ],
+  "bugCount": 11,
+  "total": 186
+ },
+ {
+  "week": "2025-03-26",
+  "bugCount": 12,
+  "total": 188,
+  "bugs": [
+   {
+    "count": 32,
+    "id": 1955976,
+    "summary": "Perma [tier 2] devtools/client/debugger/test/mochitest/browser_dbg-preview-multiple-threads.js | Node is not accessible via accessibility API: id: , tagName: DIV, className: label -"
+   },
+   {
+    "count": 28,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1889407,
+    "summary": "Intermittent devtools/shared/commands/target-configuration/tests/browser_target_configuration_command_custom_user_agent.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767633,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_autoscroll.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1432176,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_original-source-link.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1929339,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1955997,
+    "summary": "Perma [tier 2] devtools/client/performance-new/test/browser/browser_aboutprofiling-more-actions-menu.js | Node is not accessible via accessibility API: id: , tagName: PANEL-ITEM, className: -"
+   },
+   {
+    "count": 11,
+    "id": 1767658,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_timing-division.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767668,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_highlighter-cssshape_04.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-04-02",
+  "bugCount": 6,
+  "total": 74,
+  "bugs": [
+   {
+    "count": 13,
+    "id": 1432176,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_original-source-link.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767273,
+    "summary": "Intermittent devtools/client/netmonitor/src/har/test/browser_net_har_import.js | Test timed out -"
+   },
+   {
+    "count": 15,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1889407,
+    "summary": "Intermittent devtools/shared/commands/target-configuration/tests/browser_target_configuration_command_custom_user_agent.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-04-09",
+  "bugCount": 23,
+  "total": 455,
+  "bugs": [
+   {
+    "count": 62,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 46,
+    "id": 1767273,
+    "summary": "Intermittent devtools/client/netmonitor/src/har/test/browser_net_har_import.js | Test timed out -"
+   },
+   {
+    "count": 29,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1767662,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net-ws-filter-freetext.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1889407,
+    "summary": "Intermittent devtools/shared/commands/target-configuration/tests/browser_target_configuration_command_custom_user_agent.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 20,
+    "id": 1781471,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_authored_color.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1863103,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1767633,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_autoscroll.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1958748,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-preview-invalid-tokens.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767691,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_toolbox_rule_view_reload.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767768,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_document_events.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1781497,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_navigation.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767771,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_reflows.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767758,
+    "summary": "Intermittent devtools/server/tests/browser/browser_storage_dynamic_windows.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1959062,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-event-breakpoints.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1817966,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-pretty-print-sourcemap.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767778,
+    "summary": "Frequent devtools/shared/commands/target/tests/browser_target_command_browser_workers.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-04-16",
+  "bugCount": 25,
+  "total": 630,
+  "bugs": [
+   {
+    "count": 25,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 20,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1889524,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_menu-05-attribute-items.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1863103,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1781497,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_navigation.js | single tracking bug"
+   },
+   {
+    "count": 76,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 66,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 50,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 36,
+    "id": 1767273,
+    "summary": "Intermittent devtools/client/netmonitor/src/har/test/browser_net_har_import.js | Test timed out -"
+   },
+   {
+    "count": 36,
+    "id": 1889407,
+    "summary": "Intermittent devtools/shared/commands/target-configuration/tests/browser_target_configuration_command_custom_user_agent.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1781471,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_authored_color.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 1817966,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-pretty-print-sourcemap.js | single tracking"
+   },
+   {
+    "count": 25,
+    "id": 1767662,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net-ws-filter-freetext.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1767768,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_document_events.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1767691,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_toolbox_rule_view_reload.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1787011,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_context_menu_copy_link_location.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1958748,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-preview-invalid-tokens.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767724,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_console_logging_workers_api.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1959062,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-event-breakpoints.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767771,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_reflows.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1954964,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-quick-open.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767769,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_error_messages.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767633,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_autoscroll.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-04-23",
+  "bugCount": 13,
+  "total": 194,
+  "bugs": [
+   {
+    "count": 15,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767727,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_network_messages_expand_before_updates.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1923756,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_scroll.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1959055,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-state-based-panels.js | single tracking bug"
+   },
+   {
+    "count": 28,
+    "id": 1960679,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_filter-value-preserved.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767735,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-mutation-element-removed.js | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 14,
+    "id": 1767273,
+    "summary": "Intermittent devtools/client/netmonitor/src/har/test/browser_net_har_import.js | Test timed out -"
+   },
+   {
+    "count": 17,
+    "id": 1889524,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_menu-05-attribute-items.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-04-30",
+  "bugCount": 10,
+  "total": 246,
+  "bugs": [
+   {
+    "count": 105,
+    "id": 1963212,
+    "summary": "Frequent devtools/client/inspector/fonts/test/browser_fontinspector_all-fonts.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 20,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1808555,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_last_private_context_exit.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1960679,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_filter-value-preserved.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767727,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_network_messages_expand_before_updates.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-05-07",
+  "bugCount": 11,
+  "total": 510,
+  "bugs": [
+   {
+    "count": 281,
+    "id": 1952608,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation_stopped.js | single tracking bug"
+   },
+   {
+    "count": 109,
+    "id": 1929339,
+    "summary": "Frequent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 33,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1952608,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation_stopped.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 12,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1949050,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_overrides.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-05-14",
+  "bugCount": 18,
+  "total": 445,
+  "bugs": [
+   {
+    "count": 38,
+    "id": 1952608,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation_stopped.js | single tracking bug"
+   },
+   {
+    "count": 36,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1949050,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_overrides.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1950845,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_global_debugging.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1959018,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1897912,
+    "summary": "Intermittent devtools/client/framework/test/browser_target_parents.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1942027,
+    "summary": "Intermittent TV devtools/client/debugger/test/mochitest/browser_dbg-pretty-print-line-breaks.js | single tracking bug"
+   },
+   {
+    "count": 66,
+    "id": 1929339,
+    "summary": "Frequent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-values-search.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   }
+  ]
+ },
+ {
+  "week": "2025-05-21",
+  "bugCount": 14,
+  "total": 328,
+  "bugs": [
+   {
+    "count": 46,
+    "id": 1965340,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 37,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1959018,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 16,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1894312,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-call-stack.js | single tracking bug"
+   },
+   {
+    "count": 86,
+    "id": 1966826,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_devtoolstoolbox_navigate_back_forward.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1961617,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_duration-sort.js | single tracking bug"
+   },
+   {
+    "count": 6,
+    "id": 1952608,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_service_workers_navigation_stopped.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-05-28",
+  "bugCount": 7,
+  "total": 179,
+  "bugs": [
+   {
+    "count": 39,
+    "id": 1965340,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 36,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 26,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 33,
+    "id": 1966826,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_devtoolstoolbox_navigate_back_forward.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-06-04",
+  "bugCount": 14,
+  "total": 385,
+  "bugs": [
+   {
+    "count": 58,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1781323,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_processes.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1950845,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_global_debugging.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1897912,
+    "summary": "Intermittent devtools/client/framework/test/browser_target_parents.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1781497,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_navigation.js | single tracking bug"
+   },
+   {
+    "count": 59,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 58,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1958918,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_telemetry-debug-worker.js | single tracking bug"
+   },
+   {
+    "count": 69,
+    "id": 1965340,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 33,
+    "id": 1970057,
+    "summary": "Perma [tier 2] devtools/client/storage/test/browser_storage_localstorage_tall_content.js | Node is not accessible via accessibility API: id: , tagName: label, className: devtools-toolbar table-widget-column-header -"
+   }
+  ]
+ },
+ {
+  "week": "2025-06-11",
+  "bugCount": 13,
+  "total": 286,
+  "bugs": [
+   {
+    "count": 20,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1781497,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_navigation.js | single tracking bug"
+   },
+   {
+    "count": 26,
+    "id": 1767772,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_sources.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1947358,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1950845,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_global_debugging.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1965340,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 54,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1970057,
+    "summary": "Perma [tier 2] devtools/client/storage/test/browser_storage_localstorage_tall_content.js | Node is not accessible via accessibility API: id: , tagName: label, className: devtools-toolbar table-widget-column-header -"
+   }
+  ]
+ },
+ {
+  "week": "2025-06-18",
+  "bugCount": 16,
+  "total": 298,
+  "bugs": [
+   {
+    "count": 16,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 33,
+    "id": 1767695,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_addons_debug_storage.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1781479,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1965340,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767688,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_style-editor-link.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1432301,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_grid-highlighter-restored-after-reload.js | Test timed out -"
+   },
+   {
+    "count": 39,
+    "id": 1971598,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_number-of-css-grids-telemetry.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1971632,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_grid-highlighter-on-navigate.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1971820,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_flexbox-highlighter-on-navigate.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1972170,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_restored-after-reload.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1904942,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_flexbox-highlighter-restored-after-reload.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-06-25",
+  "bugCount": 9,
+  "total": 167,
+  "bugs": [
+   {
+    "count": 44,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 28,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767695,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_addons_debug_storage.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1897912,
+    "summary": "Intermittent devtools/client/framework/test/browser_target_parents.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1973006,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_eyedropper.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1973616,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-scrolling-with-search.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-07-02",
+  "bugCount": 13,
+  "total": 266,
+  "bugs": [
+   {
+    "count": 45,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 34,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1897912,
+    "summary": "Intermittent devtools/client/framework/test/browser_target_parents.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1973972,
+    "summary": "Intermittent devtools/server/tracer/tests/browser/browser_document_tracer.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1781323,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_processes.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1781471,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_authored_color.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1973006,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_eyedropper.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1937308,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-blackbox.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-07-09",
+  "bugCount": 18,
+  "total": 574,
+  "bugs": [
+   {
+    "count": 196,
+    "id": 1975120,
+    "summary": "Frequent devtools/client/netmonitor/test/browser_net_statistics-01.js | Test timed out - | single tracking bug"
+   },
+   {
+    "count": 71,
+    "id": 1975131,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-edge-case.js | single tracking bug"
+   },
+   {
+    "count": 39,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 1767655,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-02.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1767692,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1898415,
+    "summary": "Intermittent devtools/startup/tests/browser/browser_command_line_urls.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1607636,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-inline-preview.js | Test timed out -"
+   },
+   {
+    "count": 15,
+    "id": 1973972,
+    "summary": "Intermittent devtools/server/tracer/tests/browser/browser_document_tracer.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1567800,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | Animation inspector should be live -"
+   },
+   {
+    "count": 14,
+    "id": 1781323,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_processes.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1781328,
+    "summary": "Intermittent devtools/shared/commands/inspector/tests/browser_inspector_command_findNodeFrontFromSelectors.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1811903,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_devtoolstoolbox_reload.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1889134,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_css_messages.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1959018,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-07-16",
+  "bugCount": 16,
+  "total": 348,
+  "bugs": [
+   {
+    "count": 41,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 34,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1781328,
+    "summary": "Intermittent devtools/shared/commands/inspector/tests/browser_inspector_command_findNodeFrontFromSelectors.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1767779,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_frames.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1781323,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_processes.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1898415,
+    "summary": "Intermittent devtools/startup/tests/browser/browser_command_line_urls.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 9,
+    "id": 1860923,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_with_extension.js | single tracking bug"
+   },
+   {
+    "count": 7,
+    "id": 1767779,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_frames.js | single tracking bug"
+   },
+   {
+    "count": 7,
+    "id": 1972034,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_global_debugging.js | single tracking bug"
+   },
+   {
+    "count": 7,
+    "id": 1973921,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 3,
+    "id": 1975120,
+    "summary": "Frequent devtools/client/netmonitor/test/browser_net_statistics-01.js | Test timed out - | single tracking bug"
+   },
+   {
+    "count": 2,
+    "id": 1975131,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-edge-case.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-07-23",
+  "bugCount": 10,
+  "total": 172,
+  "bugs": [
+   {
+    "count": 40,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1898415,
+    "summary": "Intermittent devtools/startup/tests/browser/browser_command_line_urls.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1978093,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1781323,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_processes.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1781328,
+    "summary": "Intermittent devtools/shared/commands/inspector/tests/browser_inspector_command_findNodeFrontFromSelectors.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767779,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_frames.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-07-30",
+  "bugCount": 12,
+  "total": 282,
+  "bugs": [
+   {
+    "count": 64,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1979074,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_block-serviceworker.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1840923,
+    "summary": "Intermittent devtools/client/inspector/changes/test/browser_changes_nested_rules.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1781328,
+    "summary": "Intermittent devtools/shared/commands/inspector/tests/browser_inspector_command_findNodeFrontFromSelectors.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-08-06",
+  "bugCount": 13,
+  "total": 268,
+  "bugs": [
+   {
+    "count": 44,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 37,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 26,
+    "id": 1840923,
+    "summary": "Intermittent devtools/client/inspector/changes/test/browser_changes_nested_rules.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1979074,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_block-serviceworker.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1979660,
+    "summary": "Intermittent devtools/startup/tests/browser/browser_command_line_urls.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1781323,
+    "summary": "Intermittent devtools/shared/commands/target/tests/browser_target_command_processes.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1977040,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-08-13",
+  "bugCount": 9,
+  "total": 148,
+  "bugs": [
+   {
+    "count": 26,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 26,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1860923,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_with_extension.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1979660,
+    "summary": "Intermittent devtools/startup/tests/browser/browser_command_line_urls.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1955603,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_options_enable_serviceworkers_testing.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-08-20",
+  "bugCount": 3,
+  "total": 58,
+  "bugs": [
+   {
+    "count": 29,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1860923,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_with_extension.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-08-27",
+  "bugCount": 11,
+  "total": 217,
+  "bugs": [
+   {
+    "count": 40,
+    "id": 1984832,
+    "summary": "Perma [tier 2] devtools/client/inspector/rules/test/browser_rules_edit-value-after-name_02.js | Node is not accessible via accessibility API: id: , tagName: div, className: ruleview-propertycontainer -"
+   },
+   {
+    "count": 32,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1984562,
+    "summary": "Frequent devtools/shared/network-observer/test/browser/browser_networkobserver_response_body_limit.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1860923,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_with_extension.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1889134,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_css_messages.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1955603,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_options_enable_serviceworkers_testing.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-09-03",
+  "bugCount": 10,
+  "total": 179,
+  "bugs": [
+   {
+    "count": 32,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 1904034,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-old-breakpoint.js | single tracking bug"
+   },
+   {
+    "count": 26,
+    "id": 1767686,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_gridline-names-autocomplete.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1955603,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_options_enable_serviceworkers_testing.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1985681,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_completion-existing-property_02.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1860923,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_with_extension.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-09-10",
+  "bugCount": 5,
+  "total": 119,
+  "bugs": [
+   {
+    "count": 33,
+    "id": 1904034,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-old-breakpoint.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 1980334,
+    "summary": "Intermittent devtools/server/tests/xpcshell/test_extension_storage_actor.js | Test timed out"
+   },
+   {
+    "count": 25,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1767686,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_gridline-names-autocomplete.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-09-17",
+  "bugCount": 4,
+  "total": 92,
+  "bugs": [
+   {
+    "count": 24,
+    "id": 1767686,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_gridline-names-autocomplete.js | single tracking bug"
+   },
+   {
+    "count": 34,
+    "id": 1904034,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-old-breakpoint.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1949036,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_screenshot_button.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-09-24",
+  "bugCount": 7,
+  "total": 272,
+  "bugs": [
+   {
+    "count": 130,
+    "id": 1949036,
+    "summary": "Frequent devtools/client/responsive/test/browser/browser_screenshot_button.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1767686,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_gridline-names-autocomplete.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1118592,
+    "summary": "Intermittent browser_tableWidget_mouse_interaction.js | Test timed out"
+   },
+   {
+    "count": 14,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-10-01",
+  "bugCount": 15,
+  "total": 458,
+  "bugs": [
+   {
+    "count": 118,
+    "id": 1990463,
+    "summary": "Perma [Tier 2] devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-sidebar-panel.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1990459,
+    "summary": "Perma [Tier 2] devtools/client/inspector/rules/test/browser_rules_completion-new-property_04.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 1990541,
+    "summary": "High frequency devtools/client/inspector/rules/test/browser_rules_gridline-names-autocomplete.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1948043,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1927128,
+    "summary": "Intermittent leakcheck large SystemGlobal or leakcheck large BackstagePass | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1767786,
+    "summary": "Intermittent devtools/shared/test-helpers/browser_allocation_tracker.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1947170,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1985681,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_completion-existing-property_02.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1781497,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_navigation.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1949036,
+    "summary": "Frequent devtools/client/responsive/test/browser/browser_screenshot_button.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-10-08",
+  "bugCount": 10,
+  "total": 191,
+  "bugs": [
+   {
+    "count": 43,
+    "id": 1767778,
+    "summary": "Frequent devtools/shared/commands/target/tests/browser_target_command_browser_workers.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1991373,
+    "summary": "Intermittent leakcheck large SystemGlobal | devtools/client/webconsole/test/browser/_browser_console.toml | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1872980,
+    "summary": "Intermittent TEST-UNEXPECTED-PASS devtools/client/responsive/test/browser/browser_tab_not_selected.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767786,
+    "summary": "Intermittent devtools/shared/test-helpers/browser_allocation_tracker.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-10-15",
+  "bugCount": 4,
+  "total": 58,
+  "bugs": [
+   {
+    "count": 19,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1872980,
+    "summary": "Intermittent TEST-UNEXPECTED-PASS devtools/client/responsive/test/browser/browser_tab_not_selected.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1991373,
+    "summary": "Intermittent leakcheck large SystemGlobal | devtools/client/webconsole/test/browser/_browser_console.toml | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-10-22",
+  "bugCount": 2,
+  "total": 56,
+  "bugs": [
+   {
+    "count": 19,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1991373,
+    "summary": "Intermittent leakcheck large SystemGlobal | devtools/client/webconsole/test/browser/_browser_console.toml | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-10-29",
+  "bugCount": 4,
+  "total": 86,
+  "bugs": [
+   {
+    "count": null,
+    "id": 1767786,
+    "summary": "Intermittent devtools/shared/test-helpers/browser_allocation_tracker.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1812593,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1901580,
+    "summary": "Intermittent devtools/client/framework/test/allocations/browser_allocations_browser_console.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1991373,
+    "summary": "Intermittent leakcheck large SystemGlobal | devtools/client/webconsole/test/browser/_browser_console.toml | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-11-05",
+  "bugCount": 3,
+  "total": 41,
+  "bugs": [
+   {
+    "count": 18,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1995762,
+    "summary": "Intermittent devtools/client/framework/test/browser_destroying_iframes.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-11-12",
+  "bugCount": 2,
+  "total": 105,
+  "bugs": [
+   {
+    "count": 93,
+    "id": 1991020,
+    "summary": "Frequent devtools/client/netmonitor/src/har/test/browser_net_har_copy_all_as_har.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1995762,
+    "summary": "Intermittent devtools/client/framework/test/browser_destroying_iframes.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-11-19",
+  "bugCount": 5,
+  "total": 71,
+  "bugs": [
+   {
+    "count": 19,
+    "id": 1995762,
+    "summary": "Intermittent devtools/client/framework/test/browser_destroying_iframes.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1998960,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1796185,
+    "summary": "Intermittent devtools/client/netmonitor/src/har/test/browser_net_har_copy_all_as_har.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1997758,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_navigation.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-11-26",
+  "bugCount": 5,
+  "total": 103,
+  "bugs": [
+   {
+    "count": 40,
+    "id": 1892570,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_pseudo-element.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 2001915,
+    "summary": "Frequent devtools/client/inspector/rules/test/browser_rules_edit-selector-pseudo-element.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1996490,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_localstorage_tall_content.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-12-03",
+  "bugCount": 1,
+  "total": 53,
+  "bugs": [
+   {
+    "count": 53,
+    "id": 2001915,
+    "summary": "Frequent devtools/client/inspector/rules/test/browser_rules_edit-selector-pseudo-element.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-12-10",
+  "bugCount": 1,
+  "total": 10,
+  "bugs": [
+   {
+    "count": 11,
+    "id": 1996490,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_localstorage_tall_content.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-12-17",
+  "bugCount": 3,
+  "total": 46,
+  "bugs": [
+   {
+    "count": null,
+    "id": 1781497,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_navigation.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1996490,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_localstorage_tall_content.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1997758,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_navigation.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-12-24",
+  "bugCount": 3,
+  "total": 33,
+  "bugs": [
+   {
+    "count": null,
+    "id": 1996490,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_localstorage_tall_content.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1995989,
+    "summary": "Intermittent devtools/client/shared/components/test/chrome/test_list_keyboard.html | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2025-12-31",
+  "bugCount": 2,
+  "total": 20,
+  "bugs": [
+   {
+    "count": null,
+    "id": 1947170,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 1996490,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_localstorage_tall_content.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-01-07",
+  "bugCount": 1,
+  "total": 10,
+  "bugs": [
+   {
+    "count": null,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-01-14",
+  "bugCount": 3,
+  "total": 37,
+  "bugs": [
+   {
+    "count": 16,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1998960,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-01-21",
+  "bugCount": 7,
+  "total": 91,
+  "bugs": [
+   {
+    "count": 17,
+    "id": 1980013,
+    "summary": "High frequency devtools/client/responsive/test/browser/browser_touch_all_events.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1910261,
+    "summary": "Intermittent LeakSanitizer leak at XPCWrappedNative::GetNewOrUsed, XPCConvert::NativeInterface2JSObject, GetServiceImpl, GetService | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1927821,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_typeahead_find.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1966744,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_error.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1998960,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-01-28",
+  "bugCount": 3,
+  "total": 149,
+  "bugs": [
+   {
+    "count": 102,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   },
+   {
+    "count": 40,
+    "id": 2012028,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_all_events_long_tap.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2009123,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_touch_event_iframes.js - ID X - translated X% iframe with DPR 1 and path http://mochi.test:8888/browser/devtools/client/responsive/test/browser/ | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-02-04",
+  "bugCount": 3,
+  "total": 64,
+  "bugs": [
+   {
+    "count": 12,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 43,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2013722,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_typeahead_find.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-02-11",
+  "bugCount": 5,
+  "total": 67,
+  "bugs": [
+   {
+    "count": 12,
+    "id": 1767731,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_warning_groups_filtering.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1767733,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_warning_groups_outside_console_group.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1947170,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1987665,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_colorpicker-edit-gradient.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2006111,
+    "summary": "Intermittent devtools/client/inspector/computed/test/browser_computed_original-source-link.js | single tracking bug"
+   },
+   {
+    "count": 9,
+    "id": 2013722,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_typeahead_find.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-02-18",
+  "bugCount": 5,
+  "total": 130,
+  "bugs": [
+   {
+    "count": 16,
+    "id": 1767637,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_columns_time.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1890108,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_navigate_to_errors.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1998960,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 78,
+    "id": 2016406,
+    "summary": "Perma [tier2] devtools/client/framework/test/browser_toolbox_content_modal_overlap.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-02-25",
+  "bugCount": 2,
+  "total": 35,
+  "bugs": [
+   {
+    "count": 23,
+    "id": 2016837,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_window_close.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-03-04",
+  "bugCount": 5,
+  "total": 60,
+  "bugs": [
+   {
+    "count": 11,
+    "id": 1767694,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_addons_debug_popup.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1947170,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2006111,
+    "summary": "Intermittent devtools/client/inspector/computed/test/browser_computed_original-source-link.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-03-11",
+  "bugCount": 9,
+  "total": 203,
+  "bugs": [
+   {
+    "count": 58,
+    "id": 1871836,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_status-bar-transferred-size.js | single tracking bug"
+   },
+   {
+    "count": 36,
+    "id": 2021290,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_split_console.js | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 2021481,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_filters.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 2021427,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_duration-sort.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1947170,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 2021516,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_reload_nested_iframe.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1811903,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_devtoolstoolbox_reload.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2009386,
+    "summary": "Intermittent devtools/client/inspector/markup/test/browser_markup_pseudo.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1998960,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-03-18",
+  "bugCount": 13,
+  "total": 254,
+  "bugs": [
+   {
+    "count": 50,
+    "id": 1871836,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_status-bar-transferred-size.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 2021290,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_split_console.js | single tracking bug"
+   },
+   {
+    "count": 30,
+    "id": 2021427,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_duration-sort.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 2023039,
+    "summary": "Perma devtools/client/responsive/test/browser/browser_device_state_restore.js | Value \"iPhone 6/7/8\" should match an existing menu item. - Didn't expect undefined, but got it | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 2021481,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_filters.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1959018,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2023147,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1973921,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1972034,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_global_debugging.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-03-25",
+  "bugCount": 8,
+  "total": 264,
+  "bugs": [
+   {
+    "count": 12,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 47,
+    "id": 1960069,
+    "summary": "High frequency devtools/client/inspector/rules/test/browser_rules_search-filter_09.js | single tracking bug"
+   },
+   {
+    "count": 55,
+    "id": 1973921,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 2021290,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_split_console.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2021516,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_reload_nested_iframe.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2024934,
+    "summary": "Perma devtools/client/shared/test/browser_outputparser.js | CSS property correctly parsed for color: color-mix(in srgb, red, blue, green) - Got \"color-mix(in srgb, red, blue, green)\" - when Gecko 150 merges to beta on 2026-03-23"
+   },
+   {
+    "count": 95,
+    "id": 2024981,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_variables_unused_add_property.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-04-01",
+  "bugCount": 31,
+  "total": 855,
+  "bugs": [
+   {
+    "count": 177,
+    "id": 1767683,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_custom.js | single tracking bug"
+   },
+   {
+    "count": 125,
+    "id": 2024981,
+    "summary": "High frequency devtools/client/inspector/rules/test/browser_rules_variables_unused_add_property.js | testUnusedVariablesAndAddingDeclarations - Test timed out | single tracking bug"
+   },
+   {
+    "count": 55,
+    "id": 1960069,
+    "summary": "High frequency devtools/client/inspector/rules/test/browser_rules_search-filter_09.js | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1674060,
+    "summary": "Perma Windows ccov-qr or macosx-qr devtools/client/accessibility/test/browser/browser_accessibility_panel_toolbar_pref_scroll.js | Menu item is visible. -"
+   },
+   {
+    "count": 37,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 37,
+    "id": 2021516,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_reload_nested_iframe.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 2026454,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-reloading.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 27,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 25,
+    "id": 1781480,
+    "summary": "Intermittent devtools/client/framework/browser-toolbox/test/browser_browser_toolbox.js | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 1984821,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_fonts.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1781317,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1781499,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-features-browser-toolbox-source-tree.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1959018,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 2021290,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_split_console.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 2026850,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-01.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 1815641,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_domain-not-found.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2023147,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1982005,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-content.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2001370,
+    "summary": "Intermittent devtools/client/inspector/test/highlighter/browser_inspector_highlighter-02.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1775182,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_by_width.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1891244,
+    "summary": "Frequent esr115 OS X 10.15 devtools/client/debugger/test/mochitest/browser_dbg-call-stack.js | A promise chain failed to handle a rejection: Actor 'SpecialPowers' destroyed before query 'Spawn' was resolved - stack: (No stack available.)"
+   },
+   {
+    "count": 11,
+    "id": 1894899,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_navigation.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2009386,
+    "summary": "Intermittent devtools/client/inspector/markup/test/browser_markup_pseudo.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2023887,
+    "summary": "Intermittent devtools/client/netmonitor/src/har/test/browser_net_har_copy_all_as_har.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-04-08",
+  "bugCount": 23,
+  "total": 380,
+  "bugs": [
+   {
+    "count": 32,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 1982005,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-content.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 2009386,
+    "summary": "Intermittent devtools/client/inspector/markup/test/browser_markup_pseudo.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 2029273,
+    "summary": "High frequency | devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_devtoolstoolbox_target_destroyed.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 2026830,
+    "summary": "Intermittent TV devtools/client/framework/test/browser_toolbox_options_disable_buttons.js | test - A promise chain failed to handle a rejection: Connection closed, pending request to server0.conn0.target-configuration4, type updateConfiguration failed"
+   },
+   {
+    "count": 18,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 2026850,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-01.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1973381,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_start-service-worker.js | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1891244,
+    "summary": "Frequent esr115 OS X 10.15 devtools/client/debugger/test/mochitest/browser_dbg-call-stack.js | A promise chain failed to handle a rejection: Actor 'SpecialPowers' destroyed before query 'Spawn' was resolved - stack: (No stack available.)"
+   },
+   {
+    "count": 16,
+    "id": 1959018,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-javascript-tracer-values-preview.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": null,
+    "id": 2023147,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_stubs_network_event.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2027498,
+    "summary": "Intermittent devtools/client/inspector/computed/test/browser_computed_matched-selectors-jump-to-declaration.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2028688,
+    "summary": "Intermittent [tier 2] devtools/client/inspector/markup/test/browser_markup_load_01.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767716,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-windowless-service-workers-reload.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1972034,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_global_debugging.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1972375,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-chrome-create.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1966872,
+    "summary": "Intermittent devtools/client/framework/test/browser_tab_descriptor_fission.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1775182,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_toolbar_reorder_by_width.js | single tracking bug"
+   },
+   {
+    "count": 9,
+    "id": 1894899,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_navigation.js | single tracking bug"
+   },
+   {
+    "count": 9,
+    "id": 1971894,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_serviceworker_start.js | single tracking bug"
+   },
+   {
+    "count": 8,
+    "id": 1973921,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_object_inspector_entries.js | single tracking bug"
+   },
+   {
+    "count": 7,
+    "id": 1767715,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-blackbox-all.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-04-15",
+  "bugCount": 27,
+  "total": 419,
+  "bugs": [
+   {
+    "count": 32,
+    "id": 2031760,
+    "summary": "High freq devtools/client/accessibility/test/browser/browser_accessibility.js- checkStartingWithDisabledAccessibilityService - Test timed out | single tracking bug"
+   },
+   {
+    "count": 26,
+    "id": 2026850,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-01.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1815641,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_domain-not-found.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 1767716,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-windowless-service-workers-reload.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 2001370,
+    "summary": "Intermittent devtools/client/inspector/test/highlighter/browser_inspector_highlighter-02.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1917962,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_duplicate_names.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1891244,
+    "summary": "Frequent esr115 OS X 10.15 devtools/client/debugger/test/mochitest/browser_dbg-call-stack.js | A promise chain failed to handle a rejection: Actor 'SpecialPowers' destroyed before query 'Spawn' was resolved - stack: (No stack available.)"
+   },
+   {
+    "count": 17,
+    "id": 1898695,
+    "summary": "Intermittent leakcheck | tab 4656 bytes leaked (ChildImpl, CondVar, HttpBackgroundChannelChild, HttpBackgroundChannelChild::ActorDestr, HttpBackgroundChannelChild::RecvOnTran, ...)"
+   },
+   {
+    "count": 15,
+    "id": 1933959,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_search-results.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 2021516,
+    "summary": "Intermittent devtools/client/inspector/test/browser_inspector_reload_nested_iframe.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1947368,
+    "summary": "Intermittent devtools/client/inspector/animation/test/browser_animation_logic_mutations_fast.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2029274,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_tooltip.js - The first mousemove should be fired outside the target - {} != {} - got ({}), expected ({}) (operator !=) | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2029947,
+    "summary": "Intermittent devtools/client/inspector/test/highlighter/browser_inspector_highlighter-cssshape_05.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2027935,
+    "summary": "Intermittent browser/base/content/test/static/browser_all_files_referenced.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1835255,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-reducer-cleanup-on-target-removal.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2028688,
+    "summary": "Intermittent [tier 2] devtools/client/inspector/markup/test/browser_markup_load_01.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1963943,
+    "summary": "Intermittent Assertion failure: !mPromise, at /builds/worker/workspace/obj-build/dist/include/mozilla/MozPromise.h:1489"
+   },
+   {
+    "count": 13,
+    "id": 2030500,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_list-multiple-workers-same-registration.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1894899,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_navigation.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2030442,
+    "summary": "Intermittent devtools/client/responsive/test/browser/browser_viewport_zoom_resolution_invariant.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1781473,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_eyedropper.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1982005,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_statistics-content.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1984821,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_fonts.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767771,
+    "summary": "Intermittent devtools/shared/commands/resource/tests/browser_resources_reflows.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1979074,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_block-serviceworker.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-04-22",
+  "bugCount": 12,
+  "total": 339,
+  "bugs": [
+   {
+    "count": 142,
+    "id": 2031760,
+    "summary": "High freq devtools/client/accessibility/test/browser/browser_accessibility.js- checkStartingWithDisabledAccessibilityService - Test timed out | single tracking bug"
+   },
+   {
+    "count": 34,
+    "id": 1964551,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_overrides_with_debugger.js | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 2032384,
+    "summary": "Perma [tier 2] Linux M-a11y-checks devtools/client/application/test/browser/browser_application_panel_debug-service-worker.js | We expect at least one assertion to fail because this test file is marked as fail-if in the manifest."
+   },
+   {
+    "count": 23,
+    "id": 2001370,
+    "summary": "Intermittent devtools/client/inspector/test/highlighter/browser_inspector_highlighter-02.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1767716,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-windowless-service-workers-reload.js | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 2032644,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_sse-basic.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 2030839,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_frame.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1936836,
+    "summary": "Intermittent devtools/client/accessibility/test/browser/browser_accessibility_context_menu_browser.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1998960,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_console_many_toggles.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1917962,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_duplicate_names.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-04-29",
+  "bugCount": 6,
+  "total": 102,
+  "bugs": [
+   {
+    "count": 22,
+    "id": 2033953,
+    "summary": "Perma macos [tier 2] devtools/server/tests/browser/browser_canvasframe_helper_04.js | Uncaught exception in test - TypeError: target.addEventListener is not a function | single tracking bug"
+   },
+   {
+    "count": 21,
+    "id": 2030839,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_frame.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 2032644,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_sse-basic.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2035091,
+    "summary": "Intermittent [tier 2] devtools/client/netmonitor/test/browser_net_frame.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1884491,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_highlight-property.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-05-06",
+  "bugCount": 8,
+  "total": 137
+ },
+ {
+  "week": "2026-05-13",
+  "bugCount": 6,
+  "total": 180,
+  "bugs": [
+   {
+    "count": 68,
+    "id": 2037668,
+    "summary": "Perma a11y [tier 2] devtools/client/inspector/shared/test/browser_styleinspector_tooltip-background-image.js | Node is not focusable via the accessibility API: id: | single tracking bug"
+   },
+   {
+    "count": 39,
+    "id": 2037805,
+    "summary": "Intermittent devtools/client/application/test/browser/browser_application_panel_session-history.js | \"title\" == \"https://example.com/browser/devtools/client/application/test/browser/resources/session-history/index_with_title.html\""
+   },
+   {
+    "count": 34,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 18,
+    "id": 1884491,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_highlight-property.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1993826,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_variables-jump-to-definition.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-05-20",
+  "bugCount": 4,
+  "total": 69,
+  "bugs": [
+   {
+    "count": 37,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767737,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_delete.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1884491,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_highlight-property.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-05-27",
+  "bugCount": 4,
+  "total": 99,
+  "bugs": [
+   {
+    "count": 37,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767737,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_delete.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-06-03",
+  "bugCount": 4,
+  "total": 102,
+  "bugs": [
+   {
+    "count": 41,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 34,
+    "id": 2041421,
+    "summary": "Intermittent LeakSanitizer | leak at js_pod_arena_malloc, maybe_pod_arena_malloc, pod_arena_malloc, js::Nursery::maybeMoveRawNurseryOrMallocBufferOnPromotion"
+   },
+   {
+    "count": 15,
+    "id": 1997720,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_delete.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767737,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_delete.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-06-10",
+  "bugCount": 3,
+  "total": 60,
+  "bugs": [
+   {
+    "count": 36,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 2045917,
+    "summary": "Intermittent devtools/client/inspector/fonts/test/browser_fontinspector_editor-variable.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-06-17",
+  "bugCount": 5,
+  "total": 153,
+  "bugs": [
+   {
+    "count": 56,
+    "id": 2047124,
+    "summary": "Perma [tier 2] devtools/client/debugger/test/mochitest/integration/browser_dbg-features-stylesheets.js | single tracking bug"
+   },
+   {
+    "count": 52,
+    "id": 2045917,
+    "summary": "Intermittent devtools/client/inspector/fonts/test/browser_fontinspector_editor-variable.js | single tracking bug"
+   },
+   {
+    "count": 23,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1832844,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/integration/browser_dbg-features-breakpoints.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1830615,
+    "summary": "Intermittent devtools/server/tests/chrome/test_inspector-mutations-events.html | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-06-24",
+  "bugCount": 8,
+  "total": 194,
+  "bugs": [
+   {
+    "count": 76,
+    "id": 2049359,
+    "summary": "Perma [tier 2] devtools/client/netmonitor/test/browser_net_prefs-reload.js | Node is not accessible via accessibility API: id: , tagName: DIV, className: splitter | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 2045917,
+    "summary": "Intermittent devtools/client/inspector/fonts/test/browser_fontinspector_editor-variable.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1828919,
+    "summary": "Intermittent devtools/server/tests/chrome/test_inspector-mutations-value.html | single tracking bug"
+   },
+   {
+    "count": 17,
+    "id": 1830615,
+    "summary": "Intermittent devtools/server/tests/chrome/test_inspector-mutations-events.html | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1997720,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_delete.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1974702,
+    "summary": "Intermittent devtools/client/shared/components/test/chrome/test_searchbox-with-autocomplete.html | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2049357,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_adopted_tab.js | adoptTabToExistingWindow - Test timed out"
+   }
+  ]
+ },
+ {
+  "week": "2026-07-01",
+  "bugCount": 7,
+  "total": 149,
+  "bugs": [
+   {
+    "count": 45,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 40,
+    "id": 2049359,
+    "summary": "Perma [tier 2] devtools/client/netmonitor/test/browser_net_prefs-reload.js | Node is not accessible via accessibility API: id: , tagName: DIV, className: splitter | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 2050460,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_options_local_mode_notice.js | single tracking bug"
+   },
+   {
+    "count": 19,
+    "id": 1974702,
+    "summary": "Intermittent devtools/client/shared/components/test/chrome/test_searchbox-with-autocomplete.html | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 1767737,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cache_delete.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2049357,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_adopted_tab.js | adoptTabToExistingWindow - Test timed out"
+   },
+   {
+    "count": 11,
+    "id": 1997720,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_indexeddb_delete.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-07-08",
+  "bugCount": 2,
+  "total": 38,
+  "bugs": [
+   {
+    "count": 24,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 2050460,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_options_local_mode_notice.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-07-15",
+  "bugCount": 4,
+  "total": 56,
+  "bugs": [
+   {
+    "count": 17,
+    "id": 1972375,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-chrome-create.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 1779172,
+    "summary": "Intermittent devtools/client/storage/test/browser_storage_cookies_delete_all.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2037298,
+    "summary": "Intermittent devtools/client/framework/test/browser_about-devtools-toolbox_reload.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-07-22",
+  "bugCount": 2,
+  "total": 30,
+  "bugs": [
+   {
+    "count": 17,
+    "id": 2037298,
+    "summary": "Intermittent devtools/client/framework/test/browser_about-devtools-toolbox_reload.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2056544,
+    "summary": "High frequency Assertion failure: profileString_, at /builds/worker/checkouts/gecko/js/src/jit/JitScript.h:434"
+   }
+  ]
+ },
+ {
+  "week": "2026-07-29",
+  "start": "2026-07-22",
+  "end": "2026-07-28",
+  "bugCount": 5,
+  "total": 394,
+  "bugs": [
+   {
+    "count": 211,
+    "id": 2058422,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Perma [with Nova enabled] devtools/shared/webconsole/test/chrome/test_console_group_styling.html | Error thrown: can't access property \"state\" of null | single tracking bug"
+   },
+   {
+    "count": 117,
+    "id": 2058127,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Perma devtools/client/framework/browser-toolbox/test/browser_browser_toolbox_fission_inspector.js | single tracking bug"
+   },
+   {
+    "count": 29,
+    "id": 2058044,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Perma devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_devtoolstoolbox_contextmenu.js | Test timed out"
+   },
+   {
+    "count": 27,
+    "id": 2058116,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Perma devtools/client/debugger/test/mochitest/browser_dbg-editor-horizontal-scroll.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 2037298,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Intermittent devtools/client/framework/test/browser_about-devtools-toolbox_reload.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-08-05",
+  "bugCount": 3,
+  "total": 43,
+  "bugs": [
+   {
+    "count": 23,
+    "id": 2054192,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_sidebar_object_expand_when_message_pruned.js | single tracking bug"
+   },
+   {
+    "count": 13,
+    "id": 2045293,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_addons_manifest_url.js (finished) | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-08-12",
+  "start": "2026-08-05",
+  "end": "2026-08-11",
+  "bugCount": 4,
+  "total": 110,
+  "bugs": [
+   {
+    "count": 52,
+    "id": 2054192,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_sidebar_object_expand_when_message_pruned.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1767707,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1915308,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_title_changes.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2054163,
+    "resolution": "FIXED",
+    "status": "RESOLVED",
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_console_group_open_no_scroll.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-08-19",
+  "bugCount": 5,
+  "total": 195,
+  "bugs": [
+   {
+    "count": 66,
+    "id": 2045293,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_addons_manifest_url.js (finished) | single tracking bug"
+   },
+   {
+    "count": 52,
+    "id": 2054192,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_sidebar_object_expand_when_message_pruned.js | single tracking bug"
+   },
+   {
+    "count": 36,
+    "id": 2054163,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_console_group_open_no_scroll.js | single tracking bug"
+   },
+   {
+    "count": 35,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-08-26",
+  "bugCount": 6,
+  "total": 213,
+  "bugs": [
+   {
+    "count": 66,
+    "id": 2045293,
+    "summary": "Intermittent devtools/client/aboutdebugging/test/browser/browser_aboutdebugging_addons_manifest_url.js (finished) | single tracking bug"
+   },
+   {
+    "count": 34,
+    "id": 2065002,
+    "summary": "Perma windows standalone devtools/client/styleeditor/test/browser_styleeditor_pretty.js | Shutdown - leaked window until shutdown [url = unknown]"
+   },
+   {
+    "count": 34,
+    "id": 2054163,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_console_group_open_no_scroll.js | single tracking bug"
+   },
+   {
+    "count": 32,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 31,
+    "id": 1915308,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_title_changes.js | single tracking bug"
+   },
+   {
+    "count": 24,
+    "id": 2054192,
+    "summary": "Intermittent devtools/client/webconsole/test/browser/browser_webconsole_sidebar_object_expand_when_message_pruned.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-09-02",
+  "bugCount": 2,
+  "total": 49,
+  "bugs": [
+   {
+    "count": 25,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 22,
+    "id": 1915308,
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_window_title_changes.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-09-09",
+  "bugCount": 4,
+  "total": 74,
+  "bugs": [
+   {
+    "count": 40,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 37,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 16,
+    "id": 2009386,
+    "summary": "Intermittent devtools/client/inspector/markup/test/browser_markup_pseudo.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 2069100,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-iframe-reloaded.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-09-16",
+  "bugCount": 6,
+  "total": 211,
+  "bugs": [
+   {
+    "count": 97,
+    "id": 2071505,
+    "summary": "Perma [TIer 2] devtools/client/styleeditor/test/browser_styleeditor_telemetry.js | single tracking bug"
+   },
+   {
+    "count": 39,
+    "id": 2020133,
+    "summary": "Intermittent leakcheck large nsGlobalWindowInner | devtools/shared/network-observer/test/browser/browser.toml | single tracking bug"
+   },
+   {
+    "count": 38,
+    "id": 1767707,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-backgroundtask-debugging.js | single tracking bug"
+   },
+   {
+    "count": 15,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   },
+   {
+    "count": 14,
+    "id": 1767786,
+    "summary": "Intermittent devtools/shared/test-helpers/browser_allocation_tracker.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-09-23",
+  "bugCount": 1,
+  "total": 22,
+  "bugs": [
+   {
+    "count": 22,
+    "id": 1767786,
+    "summary": "Intermittent devtools/shared/test-helpers/browser_allocation_tracker.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-09-30",
+  "bugCount": 2,
+  "total": 84,
+  "bugs": [
+   {
+    "count": 72,
+    "id": 2074657,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/integration/browser_dbg-features-edit-stylesheets.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-10-07",
+  "bugCount": 3,
+  "total": 75,
+  "bugs": [
+   {
+    "count": 55,
+    "id": 2074657,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/integration/browser_dbg-features-edit-stylesheets.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1767764,
+    "summary": "Intermittent devtools/client/shared/test/browser_layoutHelpers_getBoxQuads2.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-10-14",
+  "bugCount": 3,
+  "total": 34,
+  "bugs": [
+   {
+    "count": 12,
+    "id": 1894669,
+    "summary": "Intermittent devtools/client/inspector/grids/test/browser_grids_grid-list-on-iframe-reloaded.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1972375,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-chrome-create.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2007038,
+    "summary": "Intermittent devtools/client/netmonitor/test/browser_net_throttling_disable_unblocks_requests.js | Test timed out -"
+   }
+  ]
+ },
+ {
+  "week": "2026-10-21",
+  "bugCount": 3,
+  "total": 36,
+  "bugs": [
+   {
+    "count": 14,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   },
+   {
+    "count": 12,
+    "id": 2080325,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_pseudo-element_01.js | single tracking bug"
+   },
+   {
+    "count": 10,
+    "id": 1972375,
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-chrome-create.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-10-28",
+  "bugCount": 2,
+  "total": 23,
+  "bugs": [
+   {
+    "count": 13,
+    "id": 2011566,
+    "summary": "Frequent Linux devtools/client/inspector/test/browser_inspector_picker-page-reload.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 2080325,
+    "summary": "Intermittent devtools/client/inspector/rules/test/browser_rules_pseudo-element_01.js | single tracking bug"
+   }
+  ]
+ },
+ {
+  "week": "2026-11-04",
+  "start": "2026-10-28",
+  "end": "2026-11-03",
+  "bugCount": 3,
+  "total": 53,
+  "bugs": [
+   {
+    "count": 22,
+    "id": 2087076,
+    "resolution": "",
+    "status": "NEW",
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-content-script-sources.js | single tracking bug"
+   },
+   {
+    "count": 20,
+    "id": 2087049,
+    "resolution": "",
+    "status": "NEW",
+    "summary": "High frequency devtools/client/debugger/test/mochitest/browser_dbg-reloading.js | single tracking bug"
+   },
+   {
+    "count": 11,
+    "id": 1934545,
+    "resolution": "",
+    "status": "NEW",
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_connecting_with_frozen_process.js | The background tab is still frozen after opening devtools - Got true, expected false"
+   }
+  ]
+ }
+]
