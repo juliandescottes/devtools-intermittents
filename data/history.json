@@ -4239,23 +4239,119 @@
    {
     "count": 22,
     "id": 2087076,
-    "resolution": "",
+    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-content-script-sources.js | single tracking bug",
     "status": "NEW",
-    "summary": "Intermittent devtools/client/debugger/test/mochitest/browser_dbg-content-script-sources.js | single tracking bug"
+    "resolution": "",
+    "configs": [
+     [
+      "macosx1500-aarch64",
+      21
+     ],
+     [
+      "windows11-32-25h2",
+      1
+     ]
+    ],
+    "trees": [
+     [
+      "autoland",
+      19
+     ],
+     [
+      "mozilla-central",
+      3
+     ]
+    ],
+    "messages": [
+     [
+      "Failed waitFor(): Ensure that we only get the main thread and the two content scripts thread",
+      20
+     ],
+     [
+      "checkAllTheCSS - custom property `--panel-subview-motion-duration-enter` is not referenced",
+      1
+     ]
+    ],
+    "firstFailure": "2026-10-28",
+    "lastFailure": "2026-11-03",
+    "exampleLog": "https://treeherder.mozilla.org/jobs?repo=autoland&revision=a198abbcc632981a56d7124aeb636afe772cc213&selectedTaskRun=MOS20oUfRIiSiWjf6M45-A.0",
+    "assignee": null,
+    "needinfos": [],
+    "patches": []
    },
    {
     "count": 20,
     "id": 2087049,
-    "resolution": "",
+    "summary": "High frequency devtools/client/debugger/test/mochitest/browser_dbg-reloading.js | single tracking bug",
     "status": "NEW",
-    "summary": "High frequency devtools/client/debugger/test/mochitest/browser_dbg-reloading.js | single tracking bug"
+    "resolution": "",
+    "configs": [
+     [
+      "linux2404-64-tsan",
+      19
+     ],
+     [
+      "linux2404-64 debug",
+      1
+     ]
+    ],
+    "trees": [
+     [
+      "autoland",
+      12
+     ],
+     [
+      "mozilla-central",
+      8
+     ]
+    ],
+    "messages": [
+     [
+      "Test timed out",
+      19
+     ]
+    ],
+    "firstFailure": "2026-10-29",
+    "lastFailure": "2026-11-03",
+    "exampleLog": "https://treeherder.mozilla.org/jobs?repo=mozilla-central&revision=8c093b0446b49748831e5ab6f0b57bdcf493edfb&selectedTaskRun=ATl998HKQB2BbYhEUS4E-Q.0",
+    "assignee": null,
+    "needinfos": [],
+    "patches": []
    },
    {
     "count": 11,
     "id": 1934545,
-    "resolution": "",
+    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_connecting_with_frozen_process.js | The background tab is still frozen after opening devtools - Got true, expected false",
     "status": "NEW",
-    "summary": "Intermittent devtools/client/framework/test/browser_toolbox_connecting_with_frozen_process.js | The background tab is still frozen after opening devtools - Got true, expected false"
+    "resolution": "",
+    "configs": [
+     [
+      "linux2404-64-tsan",
+      11
+     ]
+    ],
+    "trees": [
+     [
+      "autoland",
+      7
+     ],
+     [
+      "mozilla-beta",
+      4
+     ]
+    ],
+    "messages": [
+     [
+      "The background tab is still frozen after opening devtools - Got true, expected false",
+      11
+     ]
+    ],
+    "firstFailure": "2026-10-28",
+    "lastFailure": "2026-11-03",
+    "exampleLog": "https://treeherder.mozilla.org/jobs?repo=mozilla-beta&revision=112a60d1ed1ec418aeffa8564911bd90e822cce4&selectedTaskRun=L2F3A24ySV2lg94txY9r1g.0",
+    "assignee": null,
+    "needinfos": [],
+    "patches": []
    }
   ]
  }

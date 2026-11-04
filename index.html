@@ -9,13 +9,24 @@
   body { max-width: 1100px; margin: 0 auto; padding: 1em; }
   .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; }
   table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+  table { table-layout: fixed; }
+  td { overflow-wrap: anywhere; }
+  th:nth-child(1) { width: 5em; }
+  th:nth-child(3) { width: 13em; }
+  th:nth-child(4) { width: 28%; }
   td, th { text-align: left; vertical-align: top; padding: 6px; border-bottom: 1px solid #8884; }
   td.count { text-align: right; font-variant-numeric: tabular-nums; }
   .done .bug { text-decoration: line-through; opacity: 0.6; }
   .tag { font-size: 0.8em; padding: 1px 6px; border-radius: 8px; background: #8883; white-space: nowrap; }
   .tag.new { background: #e66a; }
+  .tag.hint { background: #f90a; }
+  .tags { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+  .details { font-size: 0.85em; opacity: 0.8; margin-top: 2px; }
+  .details code { white-space: pre-wrap; }
   ul { margin: 0; padding-left: 1.2em; }
   details { font-size: 0.9em; opacity: 0.8; }
+  section { margin-top: 2.5em; }
+  .pager { display: flex; gap: 1em; align-items: center; margin-top: 1.5em; }
 </style>
 </head>
 <body>
@@ -27,15 +38,12 @@
   <div><canvas id="bugCount"></canvas></div>
   <div><canvas id="total"></canvas></div>
 </div>
-<h2>Week of <select id="week"></select></h2>
-<p id="summary"></p>
-<div id="weekNotes"></div>
-<table>
-  <thead><tr><th>Failures</th><th>Bug</th><th></th><th>Notes</th></tr></thead>
-  <tbody id="bugs"></tbody>
-</table>
+<nav class="pager"></nav>
+<div id="weeks"></div>
+<nav class="pager"></nav>
 <script>
 const MOVING_AVERAGE_WEEKS = 5;
+const WEEKS_PER_PAGE = 10;
 
 function parseNotes(text) {
   const weeks = {};
@@ -111,6 +119,79 @@ function drawChart(id, title, history, key, color) {
   });
 }
 
+const INTEGRATION_TREES = ["autoland", "mozilla-central", "try"];
+
+function daysBetween(from, to) {
+  return Math.round((new Date(to) - new Date(from)) / 86400000);
+}
+
+function sumCounts(pairs) {
+  return pairs.reduce((sum, [, count]) => sum + count, 0);
+}
+
+function hints(bug, previous, end) {
+  if (!bug.trees) {
+    return [];
+  }
+  const total = sumCounts(bug.trees);
+  const result = [];
+  const [topConfig, topCount] = bug.configs[0] || [];
+  if (topCount / total >= 0.8) {
+    result.push(`mostly ${topConfig}`);
+  }
+  const otherTrees = bug.trees.filter(([tree]) => !INTEGRATION_TREES.includes(tree));
+  if (sumCounts(otherTrees) / total >= 0.8) {
+    result.push(`mostly ${otherTrees.map(([tree]) => tree.replace("mozilla-", "")).join("/")}`);
+  }
+  if (bug.resolution) {
+    result.push(`${bug.resolution.toLowerCase()} but still failing`);
+  }
+  for (const { who, since } of bug.needinfos) {
+    const days = daysBetween(since, end);
+    if (days >= 14) {
+      result.push(`needinfo ${who} for ${days} days`);
+    }
+  }
+  if (bug.lastFailure && daysBetween(bug.lastFailure, end) >= 3) {
+    result.push(`no failure since ${bug.lastFailure}`);
+  }
+  if (bug.messages.length && bug.messages[0][1] / total < 0.5) {
+    result.push("mixed failures");
+  }
+  if (previous?.count && bug.count >= 2 * previous.count) {
+    result.push(`spiking (was ${previous.count})`);
+  }
+  if (bug.patches.length && !bug.resolution) {
+    result.push("has patch");
+  }
+  return result;
+}
+
+function bugDetails(bug) {
+  if (!bug.trees) {
+    return [];
+  }
+  const total = sumCounts(bug.trees);
+  const pairs = list => list.map(([name, count]) => `${name} ${count}`).join(", ");
+  const people = [
+    bug.assignee ? `Assigned to ${bug.assignee}.` : "",
+    ...bug.needinfos.map(({ who, since }) => `Needinfo ${who} since ${since}.`),
+  ].filter(Boolean).join(" ");
+  return [
+    el("div", { className: "details" }, [
+      `${pairs(bug.configs)} · ${pairs(bug.trees)} · last failure ${bug.lastFailure} · `,
+      el("a", { href: bug.exampleLog, textContent: "latest log" }),
+    ]),
+    ...bug.messages.map(([message, count]) =>
+      el("div", { className: "details" }, [el("code", { textContent: message }), ` (${count}/${total})`])),
+    people || bug.patches.length ? el("div", { className: "details" }, [
+      people,
+      ...bug.patches.flatMap(d => [" ", el("a", {
+        href: `https://phabricator.services.mozilla.com/${d}`, textContent: d })]),
+    ]) : "",
+  ];
+}
+
 function renderWeek(history, notes, index) {
   const entry = history[index];
   const weekNotes = notes[entry.week] || { notes: [], bugs: {} };
@@ -121,15 +202,6 @@ function renderWeek(history, notes, index) {
   const buglist = "https://bugzilla.mozilla.org/buglist.cgi?bug_id=" +
     entry.bugs.map(b => b.id).join("%2C");
 
-  document.getElementById("summary").replaceChildren(
-    entry.bugCount != null ? `Bugs: ${entry.bugCount}. Total failures: ${entry.total}. ` : "",
-    `${start} to ${end}. `,
-    el("a", { href: treeherder, textContent: "Treeherder" }), ", ",
-    el("a", { href: buglist, textContent: "Bugzilla list" }),
-  );
-  document.getElementById("weekNotes").replaceChildren(
-    ...weekNotes.notes.map(n => el("p", {}, richText(n))),
-  );
 
   const rows = entry.bugs.map(bug => {
     let streak = 1;
@@ -146,14 +218,21 @@ function renderWeek(history, notes, index) {
       .filter(e => notes[e.week]?.bugs[bug.id]?.notes.length)
       .map(e => el("li", {}, [`${e.week}: `, ...richText(notes[e.week].bugs[bug.id].notes.join(" / "))]));
 
+    const previous = index > 0 ? history[index - 1].bugs.find(b => b.id === bug.id) : null;
+    const hintTags = hints(bug, previous, end)
+      .map(h => el("span", { className: "tag hint", textContent: h }));
+
     return el("tr", { className: own.done ? "done" : "" }, [
       el("td", { className: "count", textContent: bug.count ?? "?" }),
-      el("td", { className: "bug" }, [
-        el("a", { href: `https://bugzilla.mozilla.org/show_bug.cgi?id=${bug.id}`,
-                  textContent: `Bug ${bug.id}` }),
-        ` - ${bug.summary}`,
+      el("td", {}, [
+        el("div", { className: "bug" }, [
+          el("a", { href: `https://bugzilla.mozilla.org/show_bug.cgi?id=${bug.id}`,
+                    textContent: `Bug ${bug.id}` }),
+          ` - ${bug.summary}`,
+        ]),
+        ...bugDetails(bug),
       ]),
-      el("td", {}, [tag]),
+      el("td", {}, [el("div", { className: "tags" }, [tag, ...hintTags])]),
       el("td", {}, [
         el("ul", {}, own.notes.map(n => el("li", {}, richText(n)))),
         earlier.length ? el("details", {}, [el("summary", { textContent: "Earlier notes" }),
@@ -161,7 +240,40 @@ function renderWeek(history, notes, index) {
       ]),
     ]);
   });
-  document.getElementById("bugs").replaceChildren(...rows);
+  return el("section", { id: entry.week }, [
+    el("h2", { textContent: `Week of ${entry.week}` }),
+    el("p", {}, [
+      entry.bugCount != null ? `Bugs: ${entry.bugCount}. Total failures: ${entry.total}. ` : "",
+      `${start} to ${end}. `,
+      el("a", { href: treeherder, textContent: "Treeherder" }), ", ",
+      el("a", { href: buglist, textContent: "Bugzilla list" }),
+    ]),
+    ...weekNotes.notes.map(n => el("p", {}, richText(n))),
+    el("table", {}, [
+      el("thead", {}, [el("tr", {}, ["Failures", "Bug", "", "Notes"].map(t => el("th", { textContent: t })))]),
+      el("tbody", {}, rows),
+    ]),
+  ]);
+}
+
+function renderPage(weeks, notes) {
+  const pageCount = Math.ceil(weeks.length / WEEKS_PER_PAGE);
+  const page = Math.min(Math.max(Number(location.hash.match(/page=(\d+)/)?.[1]) || 1, 1), pageCount);
+  const last = weeks.length - 1 - (page - 1) * WEEKS_PER_PAGE;
+  const first = Math.max(0, last - WEEKS_PER_PAGE + 1);
+  const sections = [];
+  for (let i = last; i >= first; i--) {
+    sections.push(renderWeek(weeks, notes, i));
+  }
+  document.getElementById("weeks").replaceChildren(...sections);
+
+  for (const pager of document.querySelectorAll(".pager")) {
+    pager.replaceChildren(
+      page > 1 ? el("a", { href: `#page=${page - 1}`, textContent: "Newer" }) : el("span", { textContent: "Newer" }),
+      `Page ${page} of ${pageCount} (${weeks[first].week} to ${weeks[last].week})`,
+      page < pageCount ? el("a", { href: `#page=${page + 1}`, textContent: "Older" }) : el("span", { textContent: "Older" }),
+    );
+  }
 }
 
 (async function () {
@@ -175,10 +287,11 @@ function renderWeek(history, notes, index) {
   drawChart("total", "Total failures for these bugs", history, "total", "#e53935");
 
   const weeks = history.filter(e => e.bugs);
-  const select = document.getElementById("week");
-  select.append(...weeks.map((e, i) => el("option", { value: i, textContent: e.week })).reverse());
-  select.addEventListener("change", () => renderWeek(weeks, notes, Number(select.value)));
-  renderWeek(weeks, notes, weeks.length - 1);
+  renderPage(weeks, notes);
+  window.addEventListener("hashchange", () => {
+    renderPage(weeks, notes);
+    document.querySelector(".pager").scrollIntoView();
+  });
 })();
 </script>
 </body>
